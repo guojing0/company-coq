@@ -115,7 +115,7 @@ Ltac MySimpleTactic :=
     and adjusts completions accordingly *)
 
 (* Run the following snippet, then try typing ‘plus’ *)
-SearchAbout eq.
+Search eq.
 
 
 (******************************************************************************)
@@ -138,8 +138,8 @@ Abort.
    key down.  Release the mouse button to hide the info box.  This also works
    without a graphic environment; just enable ‘xterm-mouse-mode’ (alternatively,
    you can use the ‘<menu>’ key, or even ‘M-F12’). *)
-Fail le.
-Fail exfalso.
+Print le.
+Print exfalso.
 
 (******************************************************************************)
 
